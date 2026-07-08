@@ -3,7 +3,33 @@ h1 {
     text-align: center;
 }
 
-ul {
-    margin-top: 20px;
+
+.pagination-last {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
+.my-progress-bar {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.my-label {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    margin-left: 20px;
+}
